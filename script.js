@@ -1,4 +1,4 @@
-const apiKey = "085ab934cde248398959f55c3f8371cc";
+const apiKey = "{your personal News API}";
 const blogContainer = document.querySelector(".blog-container");
 
 const searchField = document.getElementById("search-input");
