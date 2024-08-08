@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* global css */
+
+.object-width {
+    max-width: 1200px;
+    margin: auto
+}
+
+body {
+    position: relative;
+}
+
+nav {
+    background-color: rgb(109, 66, 150);
+    box-shadow: 0 7px 10px rgba(red, green, blue, alpha);
+}
+
+.navbar1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem 0;
+}
+
+.navbar1 .logo {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 2.0rem;
+    margin-left: 15px;
+}
+
+#search-input {
+    padding: 10px 20px;
+    max-width: 400px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+}
+
+#search-button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 3px;
+    border-radius: 5px;
+    background-color: rgba(219, 203, 235, 0.342);
+    color: white;
+    text-decoration: bold;
+    margin-left: 10px;
+}
+
+.blog-container {
+    padding: 3rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.blog-card {
+    width: 280px;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 9px;
+    margin: 8px;
+}
+
+.blog-card img {
+    width: 100%;
+    height: 280%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.blog-card:hover {
+    box-shadow: 4px 4px 10px rgb(109, 66, 150);
+}
